@@ -1,6 +1,6 @@
 # NLW - World Cup 2022 Fantasy ⚽
 
-![World Cup 2022 fantasy iphone mockup](/images/world_cup_fantasy_mockup.png)
+![World Cup 2022 fantasy iphone mockup](/wallpapers/1400x900.png)
 
 <p align="center">
 	<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img>
@@ -18,7 +18,9 @@
 ![event timeline](/images/nlw_cronograma.jpg)
 
 ## The App
-A Web and Mobile App for fantasy leagues of the FIFA World Cup 2022, to play with family and friends.
+![World Cup 2022 fantasy iphone mockup](/images/world_cup_fantasy_mockup.png)
+
+A Web and Mobile App for decentralized fantasy leagues of the FIFA World Cup 2022, to play with family and friends.
 
 ## Technologies
 * React
