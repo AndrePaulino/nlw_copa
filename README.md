@@ -15,7 +15,7 @@
 [Next Level Week](https://lp.rocketseat.com.br/nlw) an online event produced by [Rocket Seat](https://www.rocketseat.com.br/). With alot of coding, challenges and networking.
 
 ## Timeline
-![cronograma](/images/nlw_cronograma.jpg)
+![event timeline](/images/nlw_cronograma.jpg)
 
 ## The App
 A Web and Mobile App for fantasy leagues of the FIFA World Cup 2022, to play with family and friends.
