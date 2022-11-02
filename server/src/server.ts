@@ -17,12 +17,26 @@ async function bootstrap() {
 		origin: true
 	})
 
+	// ** Routes GET
 	fastify.get('/pools/count', async () => {
 		const count = await prisma.pool.count()
 
 		return { count }
 	})
 
+	fastify.get('/users/count', async () => {
+		const count = await prisma.user.count()
+
+		return { count }
+	})
+
+	fastify.get('/guesses/count', async () => {
+		const count = await prisma.guess.count()
+
+		return { count }
+	})
+
+	// ** Routes POST
 	fastify.post('/pools', async (request, reply) => {
 		const createPoolBody = z.object({
 			title: z.string()
@@ -41,6 +55,7 @@ async function bootstrap() {
 
 		return reply.status(201).send({ code })
 	})
+
 
 	await fastify.listen({ port: 3333, /*host: '0.0.0.0'*/ })
 }
