@@ -1,0 +1,95 @@
+[
+	{
+		"_id": "a229ff28-7f15-44d8-a4d5-65a911b6765c",
+		"colId": "history",
+		"containerId": "",
+		"name": "Create Pool",
+		"url": "http://www.localhost:3333/pools",
+		"method": "POST",
+		"sortNum": 0,
+		"created": "2022-11-02T04:00:51.989Z",
+		"modified": "2022-11-02T04:22:28.014Z",
+		"headers": [
+			{
+				"name": "Accept",
+				"value": "*/*",
+				"isDisabled": true
+			},
+			{
+				"name": "User-Agent",
+				"value": "Thunder Client (https://www.thunderclient.com)",
+				"isDisabled": true
+			}
+		],
+		"params": [
+			{
+				"name": "title",
+				"value": "titulo do bolao",
+				"isDisabled": true,
+				"isPath": false
+			}
+		],
+		"body": {
+			"type": "json",
+			"raw": "{\n  \"title\": \"null\"\n}",
+			"form": []
+		},
+		"tests": []
+	},
+	{
+		"_id": "2114df0c-ca71-4a27-a4b5-20b07953c429",
+		"colId": "history",
+		"containerId": "",
+		"name": "http://www.localhost:3333/pools/count",
+		"url": "http://www.localhost:3333/pools/count",
+		"method": "GET",
+		"sortNum": 0,
+		"created": "2022-11-02T15:59:04.176Z",
+		"modified": "2022-11-02T16:19:00.170Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	},
+	{
+		"_id": "c3af1420-6e70-446c-ac48-45044629888a",
+		"colId": "history",
+		"containerId": "",
+		"name": "http://www.localhost:3333/user/count",
+		"url": "http://www.localhost:3333/user/count",
+		"method": "GET",
+		"sortNum": 0,
+		"created": "2022-11-02T16:00:33.153Z",
+		"modified": "2022-11-02T16:00:33.183Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	},
+	{
+		"_id": "7b9ea433-6ca4-41b6-857f-848de3b75932",
+		"colId": "history",
+		"containerId": "",
+		"name": "http://www.localhost:3333/guesses/count",
+		"url": "http://www.localhost:3333/guesses/count",
+		"method": "GET",
+		"sortNum": 0,
+		"created": "2022-11-02T16:01:14.417Z",
+		"modified": "2022-11-02T16:16:44.168Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	},
+	{
+		"_id": "b9c9ab19-e30f-40ee-a531-9f4871f0b7e7",
+		"colId": "history",
+		"containerId": "",
+		"name": "http://www.localhost:3333/users/count",
+		"url": "http://www.localhost:3333/users/count",
+		"method": "GET",
+		"sortNum": 0,
+		"created": "2022-11-02T16:16:48.312Z",
+		"modified": "2022-11-02T16:16:48.339Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	}
+]

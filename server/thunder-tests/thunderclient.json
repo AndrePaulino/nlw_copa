@@ -1,0 +1,81 @@
+[
+	{
+		"_id": "017d8b25-397f-4638-8ad9-690a7ce4e049",
+		"colId": "42f8a5cb-f496-4ffb-a2bc-f32c58fbce0d",
+		"containerId": "",
+		"name": "Create Pool",
+		"url": "http://www.localhost:3333/pools",
+		"method": "POST",
+		"sortNum": 10000,
+		"created": "2022-11-02T15:55:52.950Z",
+		"modified": "2022-11-02T15:55:52.950Z",
+		"headers": [
+			{
+				"name": "Accept",
+				"value": "*/*",
+				"isDisabled": true
+			},
+			{
+				"name": "User-Agent",
+				"value": "Thunder Client (https://www.thunderclient.com)",
+				"isDisabled": true
+			}
+		],
+		"params": [
+			{
+				"name": "title",
+				"value": "titulo do bolao",
+				"isDisabled": true,
+				"isPath": false
+			}
+		],
+		"body": {
+			"type": "json",
+			"raw": "{\n  \"title\": \"null\"\n}",
+			"form": []
+		},
+		"tests": []
+	},
+	{
+		"_id": "e76db615-2cf2-462a-8f7e-d03fb7d75512",
+		"colId": "42f8a5cb-f496-4ffb-a2bc-f32c58fbce0d",
+		"containerId": "",
+		"name": "Pools count",
+		"url": "http://www.localhost:3333/pools/count",
+		"method": "GET",
+		"sortNum": 20000,
+		"created": "2022-11-02T15:59:37.401Z",
+		"modified": "2022-11-02T15:59:37.401Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	},
+	{
+		"_id": "e77f79fa-abe1-44e7-9753-20a1e12be536",
+		"colId": "0e7cefde-ba65-497b-9f8d-bebebedd9693",
+		"containerId": "",
+		"name": "Users count",
+		"url": "http://www.localhost:3333/users/count",
+		"method": "GET",
+		"sortNum": 10000,
+		"created": "2022-11-02T16:00:54.410Z",
+		"modified": "2022-11-02T16:02:57.707Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	},
+	{
+		"_id": "f97467ef-e1d5-4886-8b66-1593f06142fc",
+		"colId": "ea91117f-1d27-43e2-9f52-0f8d99297584",
+		"containerId": "",
+		"name": "Guesses count",
+		"url": "http://www.localhost:3333/guesses/count",
+		"method": "GET",
+		"sortNum": 10000,
+		"created": "2022-11-02T16:01:47.597Z",
+		"modified": "2022-11-02T16:01:47.597Z",
+		"headers": [],
+		"params": [],
+		"tests": []
+	}
+]
