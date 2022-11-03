@@ -713,3 +713,5 @@ MigrationBackup/
 *.mobileprovision
 *.orig.*
 web-build/
+
+.expo
