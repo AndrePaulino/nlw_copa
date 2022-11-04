@@ -4,11 +4,11 @@
     "colId": "42f8a5cb-f496-4ffb-a2bc-f32c58fbce0d",
     "containerId": "",
     "name": "Create Poll",
-    "url": "http://www.localhost:3333/users",
+    "url": "http://www.localhost:3333/polls",
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-02T15:55:52.950Z",
-    "modified": "2022-11-04T21:28:30.564Z",
+    "modified": "2022-11-04T22:41:57.892Z",
     "headers": [
       {
         "name": "Accept",
@@ -24,7 +24,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"null\"\n}",
+      "raw": "{\n  \"title\": \"bolao teste\"\n}",
       "form": []
     },
     "tests": []
@@ -76,17 +76,46 @@
     "colId": "a7773f4c-3b81-4ec7-a47e-9a53a7e7889a",
     "containerId": "",
     "name": "SignIn/SignUp",
-    "url": "http://www.localhost:3333/users",
+    "url": "http://localhost:3333/users",
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-04T21:31:18.635Z",
-    "modified": "2022-11-04T22:09:19.443Z",
-    "headers": [],
+    "modified": "2022-11-04T23:28:23.452Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"access_token\": \"ya29.a0Aa4xrXPbxjPysZ3RSimym04so5twYUz5Wfq-Q5THk9RPX5yO47v7EeuFKdM5XxmWDD1t4LRv1HM4SS6WXthvcgbFyTTPXcIXRDviMHuDfEhjTebmXogfgWWmljOkGzSElH4grJPNhMcb1AXzy1fE9GGez4mGaCgYKAWYSARESFQEjDvL9M9VCEfkzR_QxDe37Ot1ZVQ0163\"\n}",
+      "raw": "{\"access_token\": \"ya29.a0AeTM1icaBCnKo6-ThOE16miKTXdl95ge7uQiPsbvXIBUuyXwGXBjgV_452ei8AU66KE0UyUUUzxIEhMVmAbjyAx48OVtBLlXVTX142Zxn1LK1uMVMsQnnGdiz3ctl8xZyR7Kx_aMgTxwqKX4-Vf-VN202k4vSwaCgYKAZESARESFQHWtWOmPr5PNMsCjzUi2e9uWN2UFA0165\"}",
       "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e6b5433e-5b3e-4e2b-a25b-3d875717f967",
+    "colId": "a7773f4c-3b81-4ec7-a47e-9a53a7e7889a",
+    "containerId": "",
+    "name": "Me",
+    "url": "http://www.localhost:3333/me",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-04T22:26:02.064Z",
+    "modified": "2022-11-04T23:38:28.812Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
     },
     "tests": []
   }
