@@ -1,7 +1,7 @@
 [
 	{
 		"_id": "42f8a5cb-f496-4ffb-a2bc-f32c58fbce0d",
-		"colName": "Pools",
+		"colName": "Polls",
 		"created": "2022-11-02T15:55:52.948Z",
 		"sortNum": 10000,
 		"folders": []

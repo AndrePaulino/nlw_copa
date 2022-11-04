@@ -7,29 +7,29 @@ import avatarsExampleImg from "../assets/app_users_example.png";
 import iconCheckmarkImg from "../assets/icon_checkmark.svg";
 
 interface HomeProps {
-	poolCount: number;
+	pollCount: number;
 	guessCount: number;
 	userCount: number;
 }
 
 export default function Home(props: HomeProps) {
-	const [poolTitle, setPoolTitle] = useState("");
+	const [pollTitle, setPollTitle] = useState("");
 
-	async function createPool(event: FormEvent) {
+	async function createPoll(event: FormEvent) {
 		event.preventDefault();
 
 		try {
-			const response = await api.post("pools", {
-				title: poolTitle,
+			const response = await api.post("polls", {
+				title: pollTitle,
 			});
 
 			const { code } = response.data;
 			await navigator.clipboard.writeText(code);
-			alert("Pool created successfully. Pool Code copied to clipboard!");
-			setPoolTitle("");
+			alert("Poll created successfully. Poll Code copied to clipboard!");
+			setPollTitle("");
 		} catch (err) {
 			console.log(err);
-			alert("Error creating pool, try again.");
+			alert("Error creating poll, try again.");
 		}
 	}
 
@@ -52,14 +52,14 @@ export default function Home(props: HomeProps) {
 						pessoas já estão usando
 					</strong>
 				</div>
-				<form className="mt-10 flex gap-2" onSubmit={createPool}>
+				<form className="mt-10 flex gap-2" onSubmit={createPoll}>
 					<input
 						className="flex-1 px-6 py-4 rounded bg-gray-800 border border-gray-600 text-sm text-gray-100"
 						type="text"
 						required
 						placeholder="Qual nome do seu bolão?"
-						value={poolTitle}
-						onChange={(event) => setPoolTitle(event.target.value)}
+						value={pollTitle}
+						onChange={(event) => setPollTitle(event.target.value)}
 					/>
 					<button
 						className="px-6 py-4 rounded bg-yellow-500 text-gray-900 text-sm uppercase font-bold hover:bg-yellow-700"
@@ -77,7 +77,7 @@ export default function Home(props: HomeProps) {
 						<Image src={iconCheckmarkImg} alt="Green checkmark" />
 						<div className="flex flex-col">
 							<span className="font-bold text-2xl">
-								+{props.poolCount}
+								+{props.pollCount}
 							</span>
 							<span>Bolões criados</span>
 						</div>
@@ -106,16 +106,16 @@ export default function Home(props: HomeProps) {
 }
 
 export const getStaticProps = async () => {
-	const [poolCountResponse, guessCountResponse, userCountResponse] =
+	const [pollCountResponse, guessCountResponse, userCountResponse] =
 		await Promise.all([
-			api.get("http://localhost:3333/pools/count"),
+			api.get("http://localhost:3333/polls/count"),
 			api.get("http://localhost:3333/guesses/count"),
 			api.get("http://localhost:3333/users/count"),
 		]);
 
 	return {
 		props: {
-			poolCount: poolCountResponse.data.count,
+			pollCount: pollCountResponse.data.count,
 			guessCount: guessCountResponse.data.count,
 			userCount: userCountResponse.data.count,
 		},
