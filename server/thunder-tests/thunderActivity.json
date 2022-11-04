@@ -8,30 +8,12 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-11-02T04:00:51.989Z",
-    "modified": "2022-11-02T04:22:28.014Z",
-    "headers": [
-      {
-        "name": "Accept",
-        "value": "*/*",
-        "isDisabled": true
-      },
-      {
-        "name": "User-Agent",
-        "value": "Thunder Client (https://www.thunderclient.com)",
-        "isDisabled": true
-      }
-    ],
-    "params": [
-      {
-        "name": "title",
-        "value": "titulo do bolao",
-        "isDisabled": true,
-        "isPath": false
-      }
-    ],
+    "modified": "2022-11-04T21:27:56.394Z",
+    "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"null\"\n}",
+      "raw": "{\n    \"access_token\": \"ya29.a0AeTM1id9cE_N9tVceSK5kZ7tTO29AjaG1NkY8b_xUEHk_LgNA9h890hC1AOUNJB4N3aXZilyCd9RNZazNdXDBeKX_DcYik7PdjH8prVFI_Tmf8XFEZEltPNCl8hvXYoq2O5MMwXVgGs_0m-8jVAlB_CCCzB3GwaCgYKAdoSARESFQHWtWOmJSZgHX7VzbZyaAF42teK6Q0165\"\n}",
       "form": []
     },
     "tests": []
@@ -87,9 +69,28 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-02T16:16:48.312Z",
-    "modified": "2022-11-04T20:04:35.466Z",
+    "modified": "2022-11-04T20:52:45.422Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "da434317-d9d5-4da0-855e-33a4f901abb1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://www.localhost:3333/users",
+    "url": "http://www.localhost:3333/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-04T21:28:30.520Z",
+    "modified": "2022-11-04T22:11:16.307Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"access_token\": \"ya29.a0Aa4xrXPbxjPysZ3RSimym04so5twYUz5Wfq-Q5THk9RPX5yO47v7EeuFKdM5XxmWDD1t4LRv1HM4SS6WXthvcgbFyTTPXcIXRDviMHuDfEhjTebmXogfgWWmljOkGzSElH4grJPNhMcb1AXzy1fE9GGez4mGaCgYKAWYSARESFQEjDvL9M9VCEfkzR_QxDe37Ot1ZVQ0163\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
