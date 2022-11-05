@@ -8,7 +8,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-02T15:55:52.950Z",
-    "modified": "2022-11-04T23:58:04.701Z",
+    "modified": "2022-11-05T01:53:33.862Z",
     "headers": [
       {
         "name": "Accept",
@@ -24,7 +24,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"bolao com dono\"\n}",
+      "raw": "{\n  \"title\": \"bolao brabo\"\n}",
       "form": []
     },
     "auth": {
@@ -132,7 +132,7 @@
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-11-05T00:20:50.432Z",
-    "modified": "2022-11-05T00:21:28.173Z",
+    "modified": "2022-11-05T01:56:32.686Z",
     "headers": [],
     "params": [],
     "auth": {
@@ -171,6 +171,40 @@
     "modified": "2022-11-05T00:44:55.213Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
+  },
+  {
+    "_id": "70350b91-9037-4dd6-a943-b6e19ef3c5ac",
+    "colId": "ea91117f-1d27-43e2-9f52-0f8d99297584",
+    "containerId": "",
+    "name": "Create Guess",
+    "url": "http://www.localhost:3333/polls/cla39kffn00036qmubg39rybb/games/cla39kfkl00066qmu02nr7jc3/guess",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-05T01:07:09.587Z",
+    "modified": "2022-11-05T01:47:36.777Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstTeamScore\": 2,\n  \"secondTeamScore\": 1\n}",
+      "form": []
+    },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"

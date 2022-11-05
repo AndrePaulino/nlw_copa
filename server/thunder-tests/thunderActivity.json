@@ -8,7 +8,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-11-02T04:00:51.989Z",
-    "modified": "2022-11-04T23:58:04.789Z",
+    "modified": "2022-11-05T01:53:33.881Z",
     "headers": [
       {
         "name": "Accept",
@@ -24,7 +24,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\": \"bolao com dono\"\n}",
+      "raw": "{\n  \"title\": \"bolao brabo\"\n}",
       "form": []
     },
     "auth": {
@@ -42,7 +42,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-02T15:59:04.176Z",
-    "modified": "2022-11-04T22:42:06.193Z",
+    "modified": "2022-11-05T01:49:42.972Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -70,7 +70,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-02T16:01:14.417Z",
-    "modified": "2022-11-04T22:42:15.092Z",
+    "modified": "2022-11-05T01:51:20.953Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -165,7 +165,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-05T00:21:27.756Z",
-    "modified": "2022-11-05T00:27:05.348Z",
+    "modified": "2022-11-05T01:56:32.687Z",
     "headers": [],
     "params": [],
     "auth": {
@@ -183,7 +183,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-05T00:36:41.695Z",
-    "modified": "2022-11-05T00:37:21.211Z",
+    "modified": "2022-11-05T01:49:49.155Z",
     "headers": [],
     "params": [],
     "auth": {
@@ -204,6 +204,74 @@
     "modified": "2022-11-05T00:56:06.641Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
+  },
+  {
+    "_id": "8a1dd70a-296e-4518-9e23-e116918ee9fc",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://www.localhost:3333/polls/cla35q45900016qc200t61idx/games/cla2xyiu200086qpp66ga6wly/guess",
+    "url": "http://www.localhost:3333/polls/cla35q45900016qc200t61idx/games/cla2xyiu200086qpp66ga6wly/guess",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-05T01:08:36.259Z",
+    "modified": "2022-11-05T01:46:08.173Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstTeamScore\": 2,\n  \"secondTeamScore\": 1\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
+  },
+  {
+    "_id": "df30659a-bc1a-46e1-84a5-baee4e100ced",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://www.localhost:3333/polls/cla39kffn00036qmubg39rybb/games/cla39kfkl00066qmu02nr7jc3/guess",
+    "url": "http://www.localhost:3333/polls/cla39kffn00036qmubg39rybb/games/cla39kfkl00066qmu02nr7jc3/guess",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-05T01:47:36.630Z",
+    "modified": "2022-11-05T01:52:44.230Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstTeamScore\": 2,\n  \"secondTeamScore\": 1\n}",
+      "form": []
+    },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"

@@ -43,7 +43,7 @@ async function main() {
 			guesses: {
 				create: {
 					firstTeamScore: 2,
-					SecondTeamScore: 2,
+					secondTeamScore: 2,
 					participant: {
 						connect: {
 							userId_pollId: {
