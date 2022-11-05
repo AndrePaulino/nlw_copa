@@ -122,5 +122,23 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
     },
     "tests": []
+  },
+  {
+    "_id": "039bbef5-ef5d-4f97-ab3b-ddd1d1e0c34d",
+    "colId": "42f8a5cb-f496-4ffb-a2bc-f32c58fbce0d",
+    "containerId": "",
+    "name": "List polls",
+    "url": "http://localhost:3333/polls",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-11-05T00:20:50.432Z",
+    "modified": "2022-11-05T00:21:28.173Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
   }
 ]
