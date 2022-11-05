@@ -191,5 +191,23 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
     },
     "tests": []
+  },
+  {
+    "_id": "db9620fd-c41f-48c8-8ae8-9fb86d1e3849",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3333/polls/cla35q45900016qc200t61idx/games",
+    "url": "http://localhost:3333/polls/cla35q45900016qc200t61idx/games",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-05T00:44:54.776Z",
+    "modified": "2022-11-05T00:56:06.641Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
   }
 ]

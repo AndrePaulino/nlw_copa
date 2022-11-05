@@ -158,5 +158,23 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
     },
     "tests": []
+  },
+  {
+    "_id": "fd861c09-146c-4653-a6bf-1cdd2f3b5123",
+    "colId": "266fa80c-805b-4e0f-a65b-91df43986ea8",
+    "containerId": "",
+    "name": "Get all games",
+    "url": "http://localhost:3333/polls/cla35q45900016qc200t61idx/games",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-11-05T00:43:00.600Z",
+    "modified": "2022-11-05T00:44:55.213Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5kcsOpIEx1aXoiLCJhdmF0YXJVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BTG01d3UyUGVlVzhZZXdxa2wzNi11YmRoYlVBRlo3X0hVRE1wblJPckVoTTZBPXM5Ni1jIiwic3ViIjoiY2xhMzR1cDF2MDAwMDZxZ3Z2azJuMjN4NSIsImlhdCI6MTY2NzYwNDk4OCwiZXhwIjoxNjY4MjA5Nzg4fQ.tZCwJQ4JCfBSSdEA4yQfSDL3M4cuRJcRG7R2vFf0PvE"
+    },
+    "tests": []
   }
 ]

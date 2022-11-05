@@ -26,5 +26,12 @@
     "created": "2022-11-04T21:31:18.610Z",
     "sortNum": 40000,
     "folders": []
+  },
+  {
+    "_id": "266fa80c-805b-4e0f-a65b-91df43986ea8",
+    "colName": "Games",
+    "created": "2022-11-05T00:43:00.459Z",
+    "sortNum": 15000,
+    "folders": []
   }
 ]
