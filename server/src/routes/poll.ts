@@ -50,7 +50,7 @@ export async function pollRoutes(fastify: FastifyInstance) {
 		return reply.status(201).send({ code })
 	})
 
-	fastify.post('/polls/:id/join', { onRequest: [authenticate] }, async (request, reply) => {
+	fastify.post('/polls/join', { onRequest: [authenticate] }, async (request, reply) => {
 		const joinPollBody = z.object({
 			code: z.string()
 		})
@@ -136,4 +136,40 @@ export async function pollRoutes(fastify: FastifyInstance) {
 		return { polls }
 	})
 
+	fastify.get("/poll/:id", { onRequest: [authenticate] }, async (request) => {
+		const getPollsParam = z.object({
+			id: z.string(),
+		})
+
+		const { id } = getPollsParam.parse(request.params)
+		const poll = await prisma.poll.findUnique({
+			where: {
+				id,
+			}, include: {
+				owner: {
+					select: {
+						id: true,
+						name: true
+					}
+				},
+				_count: {
+					select: {
+						participants: true,
+					}
+				},
+				participants: {
+					select: {
+						id: true,
+						user: {
+							select: {
+								avatarUrl: true,
+							}
+						}
+					}, take: 4,
+				}
+			}
+		})
+
+		return { poll }
+	})
 }
