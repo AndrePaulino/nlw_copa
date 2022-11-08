@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Share } from "react-native";
-import { Heading, VStack, useToast, HStack } from "native-base";
+import { VStack, useToast, HStack } from "native-base";
 import { useRoute } from "@react-navigation/native";
 import { api } from "../services/api";
 
@@ -10,6 +10,7 @@ import { Option } from "../components/Option";
 import { PollCardProps } from "../components/PollCard";
 import { PollHeader } from "../components/PollHeader";
 import { EmptyMyPollList } from "../components/EmptyMyPollList";
+import { Guesses } from "../components/Guesses";
 
 interface RouteParams {
 	id: string;
@@ -81,6 +82,8 @@ export function Details() {
 							onPress={() => setOptionSelected("ranking")}
 						/>
 					</HStack>
+
+					<Guesses pollId={pollDetails.id} />
 				</VStack>
 			) : (
 				<EmptyMyPollList code={pollDetails.code} />
