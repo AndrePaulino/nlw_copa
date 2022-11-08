@@ -26,7 +26,7 @@ export function New() {
 			await api.post("/polls", { title });
 
 			toast.show({
-				title: "Não foi possível criar o bolão.",
+				title: "Bolão criado com sucesso.",
 				placement: "top",
 				bgColor: "green.500",
 			});
