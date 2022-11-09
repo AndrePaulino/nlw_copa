@@ -1,15 +1,17 @@
 import { useEffect, useState } from "react";
-import { Box, useToast, FlatList } from "native-base";
+import { useToast, FlatList } from "native-base";
 import { api } from "../services/api";
 
 import { Game, GameProps } from "../components/Game";
 import { Loading } from "../components/Loading";
+import { EmptyMyPollList } from "../components/EmptyMyPollList";
 
 interface Props {
 	pollId: string;
+	code: string;
 }
 
-export function Guesses({ pollId: pollId }: Props) {
+export function Guesses({ pollId: pollId, code }: Props) {
 	const toast = useToast();
 
 	const [isLoading, setIsLoading] = useState(true);
@@ -89,6 +91,8 @@ export function Guesses({ pollId: pollId }: Props) {
 					onGuessConfirm={() => handleGuessConfirm(item.id)}
 				/>
 			)}
+			_contentContainerStyle={{ pb: 10 }}
+			ListEmptyComponent={() => <EmptyMyPollList code={code} />}
 		/>
 	);
 }
